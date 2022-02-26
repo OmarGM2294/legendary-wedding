@@ -3,16 +3,41 @@
 @tailwind utilities;
 
 @layer components {
-  .nav-list {
-    @apply flex items-center justify-evenly text-primary py-8;
+  .drawer {
+    @apply w-full h-screen fixed flex flex-col items-center text-primary bg-[white] z-10 duration-500 ease-in-out transition-all transform;
   }
 
-  .nav-list li {
+  .fixed-menu {
+    @apply p-4 bg-[white] w-full flex justify-between fixed z-10 shadow-2xl;
+  }
+
+  .drawer-menu {
+    @apply p-4 flex justify-between md:hidden w-full shadow-2xl;
+  }
+
+  .drawer li {
+    @apply p-3;
+  }
+
+  .app-bar {
+    @apply w-full flex relative h-auto text-primary bg-[white] transition-none translate-x-0;
+  }
+
+  .nav {
+    @apply w-full p-1;
+  }
+
+  .nav-list {
+    @apply flex items-center justify-evenly text-primary py-8 px-5;
+  }
+
+  .nav-list li,
+  .nav li {
     cursor: pointer;
   }
 
   .section-container {
-    @apply pt-16 flex flex-col items-center w-screen;
+    @apply pt-16 flex flex-col items-center w-full px-5;
   }
 
   .paragraph {

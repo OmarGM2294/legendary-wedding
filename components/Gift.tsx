@@ -16,7 +16,7 @@ const Gift: FC = () => {
         cual nos llevará a conocer Europa por primera vez! Sus aportes pueden
         realizarse a través de efectivo o transferencia bancaria.
       </p>
-      <h2 className="text-3xl text-secondary my-9">
+      <h2 className="text-3xl text-secondary my-9 text-center">
         ¡Contribución M&J en Europa!
       </h2>
       <ul className="text-center mb-6">

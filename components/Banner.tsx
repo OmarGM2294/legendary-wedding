@@ -3,7 +3,7 @@ import { FC } from 'react'
 
 const Banner: FC = () => {
   return (
-    <header className="w-screen h-[700px] relative">
+    <header className="w-full h-[700px] relative">
       <h1 className="invisible">Shit just got real</h1>
       <Image
         className="w-screen"
