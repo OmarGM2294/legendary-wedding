@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .nav-list {
+    @apply flex items-center justify-evenly text-primary py-8;
+  }
+
+  .nav-list li {
+    cursor: pointer;
+  }
+
+  .section-container {
+    @apply pt-16 flex flex-col items-center w-screen;
+  }
+
+  .paragraph {
+    @apply text-center max-w-[460px];
+  }
+
+  .divider {
+    @apply w-96 border border-primary mt-8;
+  }
+}
