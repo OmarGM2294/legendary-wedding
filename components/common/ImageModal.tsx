@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from 'next/image'
 import { FC, useContext, useEffect, useState } from 'react'
 
 import ZoomContext from '../helpers/ZoomContext'
@@ -14,7 +13,6 @@ const ImageModal: FC = () => {
   }
 
   useEffect(() => {
-    console.log(imageUrl)
     if (imageUrl) {
       setShow(true)
     }
