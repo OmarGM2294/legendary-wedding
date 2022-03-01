@@ -22,7 +22,7 @@ const Flight: FC = () => {
         ciudades favoritas del mundo, una ciudad mágica y encantadora tanto para
         locales como extranjeros. Así es, te esperamos en
       </p>
-      <h2 className="sanies text-4xl font-bold text-center mt-3 mb-8 text-secondary">
+      <h2 className="sanies text-4xl font-bold text-center mt-8 mb-8 text-secondary">
         Cartagena de Indias, Colombia
       </h2>
       <p className="paragraph">
