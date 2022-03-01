@@ -6,8 +6,10 @@ import DressCode from '../components/DressCode'
 import Flight from '../components/Flight'
 import Fun from '../components/Fun'
 import Gift from '../components/Gift'
+import Photos from '../components/Photos'
 import RSVP from '../components/RSVP'
 import SaveDate from '../components/SaveDate'
+import ImageModal from '../components/common/ImageModal'
 
 const Home: NextPage = () => {
   return (
@@ -27,6 +29,8 @@ const Home: NextPage = () => {
       <Fun />
       <Gift />
       <RSVP />
+      <Photos />
+      <ImageModal />
     </>
   )
 }

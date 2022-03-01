@@ -1,5 +1,4 @@
-import { faCalendar } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Image from 'next/image'
 import { FC } from 'react'
 
 import Divider from './common/Divider'
@@ -16,11 +15,18 @@ const SaveDate: FC = () => {
 
   return (
     <section className="section-container" id="date">
-      <FontAwesomeIcon icon={faCalendar} size="5x" className="mb-8" />
+      <picture className="mb-2">
+        <Image
+          src="/images/IconosM_J-01.svg"
+          alt="date"
+          width={100}
+          height={100}
+        />
+      </picture>
       <p>Viernes 5 de Agosto de 2022</p>
       <p>Ceremonia 4:30pm</p>
-      <h2 className="text-7xl mt-16 text-secondary">{daysLeft()}</h2>
-      <h3 className="text-3xl text-secondary">días</h3>
+      <h2 className="bodoni text-7xl mt-16 text-secondary">{daysLeft()}</h2>
+      <h3 className="bodoni text-3xl text-secondary">días</h3>
       <Divider />
     </section>
   )

@@ -1,6 +1,6 @@
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faLocationPin } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Image from 'next/image'
 import { FC } from 'react'
 
 import Divider from './common/Divider'
@@ -8,14 +8,21 @@ import Divider from './common/Divider'
 const Flight: FC = () => {
   return (
     <section className="section-container" id="flight">
-      <FontAwesomeIcon icon={faLocationPin} size="5x" className="mb-8" />
+      <picture className="mb-2">
+        <Image
+          src="/images/IconosM_J-02.svg"
+          alt="date"
+          width={100}
+          height={100}
+        />
+      </picture>
       <p className="paragraph">
         Para la celebración buscamos un lugar que nos une, nos hace felices y de
         hecho fue nuestro primer viajes juntos: la playa. En una de nuestras
         ciudades favoritas del mundo, una ciudad mágica y encantadora tanto para
         locales como extranjeros. Así es, te esperamos en
       </p>
-      <h2 className="text-4xl font-bold text-center mt-3 mb-8 text-secondary">
+      <h2 className="sanies text-4xl font-bold text-center mt-3 mb-8 text-secondary">
         Cartagena de Indias, Colombia
       </h2>
       <p className="paragraph">

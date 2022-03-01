@@ -1,6 +1,7 @@
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Image from 'next/image'
 import { FC, useState } from 'react'
 import { Link } from 'react-scroll'
 
@@ -10,7 +11,12 @@ const AppBar: FC = () => {
   return (
     <nav>
       <div className="fixed-menu md:hidden">
-        <h2 className="text-2xl text-secondary">Shit just got real</h2>
+        <Image
+          src="/images/Shitjustgotreal-01.png"
+          height={34}
+          width={173}
+          alt="shit just got real"
+        />
         <button onClick={() => setOpen(true)}>
           <FontAwesomeIcon icon={faBars} size="2x" />
         </button>
