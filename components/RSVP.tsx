@@ -56,12 +56,12 @@ const RSVP: FC = () => {
   return (
     <section className="section-container" id="rsvp">
       {confirmed ? (
-        <h2 className="text-4xl text-center text-secondary mb-4">
+        <h2 className="text-4xl text-center text-secondary mb-4 sanies">
           ¡Gracias por tu confirmación!
         </h2>
       ) : (
         <>
-          <h2 className="text-4xl text-center text-secondary mb-4">
+          <h2 className="text-4xl text-center text-secondary mb-8 sanies">
             ¡Por favor confirma tu asistencia!
           </h2>
 
