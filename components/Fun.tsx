@@ -6,13 +6,19 @@ import Divider from './common/Divider'
 const Fun: FC = () => {
   return (
     <section className="section-container" id="fun">
-      <picture className="mb-2">
+      <picture className="mb-2 flex flex-col">
         <Image
           src="/images/IconosM_J-05.svg"
           alt="date"
           width={100}
           height={100}
         />
+        <h2
+          className="md:hidden mb-4 text-center text-2xl sanies"
+          style={{ marginTop: -10 }}
+        >
+          Have fun
+        </h2>
       </picture>
       <Image
         src="/images/cartagena-bar.jpeg"

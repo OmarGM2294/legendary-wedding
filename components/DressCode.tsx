@@ -9,13 +9,19 @@ const DressCode: FC = () => {
 
   return (
     <section className="section-container" id="dress">
-      <picture className="mb-2">
+      <picture className="mb-2 flex flex-col">
         <Image
           src="/images/IconosM_J-04.svg"
           alt="date"
           width={100}
           height={100}
         />
+        <h2
+          className="md:hidden mb-4 text-center text-2xl sanies"
+          style={{ marginTop: -10 }}
+        >
+          Suit up
+        </h2>
       </picture>
       <picture className="mb-8 flex gap-4">
         <Image
