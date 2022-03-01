@@ -1,10 +1,14 @@
 import Image from 'next/image'
-import { FC } from 'react'
+import { FC, useContext } from 'react'
+
+import GameContext from '../helpers/GameContext'
 
 const Footer: FC = () => {
+  const { setShowGame } = useContext(GameContext)
+
   return (
     <footer className="section-container pb-16">
-      <picture>
+      <picture onClick={() => setShowGame(true)} className="md:cursor-pointer">
         <Image
           src="/images/IconosM_J-08.svg"
           alt="date"

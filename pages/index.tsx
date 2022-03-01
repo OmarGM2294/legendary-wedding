@@ -5,6 +5,7 @@ import Banner from '../components/Banner'
 import DressCode from '../components/DressCode'
 import Flight from '../components/Flight'
 import Fun from '../components/Fun'
+import GameModal from '../components/GameModal'
 import Gift from '../components/Gift'
 import Photos from '../components/Photos'
 import RSVP from '../components/RSVP'
@@ -31,6 +32,7 @@ const Home: NextPage = () => {
       <RSVP />
       <Photos />
       <ImageModal />
+      <GameModal />
     </>
   )
 }

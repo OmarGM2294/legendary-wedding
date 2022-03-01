@@ -1,0 +1,60 @@
+.game {
+  width: 500px;
+  height: 200px;
+  background: url('/images/playa.jpeg');
+  background-size: cover;
+  margin: auto;
+  overflow: hidden;
+}
+
+.character {
+  width: 50px;
+  background: url('/images/kiara.png');
+  background-size: cover;
+  height: 50px;
+  position: relative;
+  top: 150px;
+}
+
+.animate {
+  animation: jump 0.5s linear;
+}
+
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+  30% {
+    top: 80px;
+  }
+  70% {
+    top: 80px;
+  }
+  100% {
+    top: 150px;
+  }
+}
+
+.block {
+  background: url('/images/cake.png');
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 110px;
+  left: 500px;
+  animation: block 1.5s infinite linear;
+}
+
+@keyframes block {
+  0% {
+    left: 500px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+
+.score {
+  text-align: center;
+}
