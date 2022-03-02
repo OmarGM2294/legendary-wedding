@@ -29,6 +29,10 @@
     font-family: 'SaniesScript';
   }
 
+  .style-script {
+    font-family: 'Style Script', serif;
+  }
+
   .text-image {
     margin-bottom: -25px !important;
   }

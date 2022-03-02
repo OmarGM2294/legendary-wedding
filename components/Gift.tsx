@@ -36,7 +36,7 @@ const Gift: FC = () => {
           height={80}
           className="text-image"
         />
-        Contribución
+        Contribuci<span className="style-script">ó</span>n
         <br />
         M&J en Europa!
       </h2>
